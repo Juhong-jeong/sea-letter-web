@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
-const HomePage = () => {
+const MyPage = () => {
   return (
     <Container>
-      test
       <BackgroundImage src="/background.png" />
+      <div style={{ position: "absolute" }}>mypage</div>
     </Container>
   );
 };
@@ -14,6 +14,7 @@ const Container = styled.div`
   height: 100vh;
   position: relative;
   background-color: #ceb6c0;
+  display
 `;
 
 const BackgroundImage = styled.img`
@@ -25,4 +26,4 @@ const BackgroundImage = styled.img`
   top: 0;
 `;
 
-export default HomePage;
+export default MyPage;
